@@ -9,7 +9,7 @@ You have a server which stores a directory structure. The task is to replicate t
 1. Clone the project
 
 ```sh
-git clone https://github.com/pixyj/mb-async-live-review-3 async_live_review
+git clone https://github.com/pramod-io/mb-async-live-review-3 async_live_review
 ```
 
 2. cd to the `async_live_review` directory
@@ -35,11 +35,7 @@ node server.js
 ## In `client.js`, Perform the below steps in the following order:
 
 1. Fetch the root directory by making a fetch request to the `/` url.
-2. Identify the directories in the root directory and fetch all the files belonging to each directory.
+2. Identify the directories in the root directory and fetch all the files belonging to each directory recursively.
 3. Once all the files are fetched, print all the items that are files.
 
 ---
-
-## Docs:
-
-- node-fetch - https://www.npmjs.com/package/node-fetch
